@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#site-header {
+  padding: 10px 0;
+  color: white;
+  background: #4F2E70;
+}
+
+#site-footer {
+  color: white;
+  padding: 10px 0;
+  background: #4F2E70;
+}
+
+#site-main {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  text-transform: capitalize;
+  display: block;
+  margin-right: 10px;
+  transition: border 0.25s;
+  border-bottom: 2px #4F2E70 solid;
+}
+nav a:last-child {
+  padding-right: 0;
+}
+nav a:hover {
+  transition: border 0.25s;
+  border-bottom: 2px white solid;
+}
+
+body {
+  color: #111;
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding-top: 70px;
+}
+
+h2 {
+  display: inline-block;
+  text-transform: capitalize;
+  background-color: #4F2E70;
+  color: white;
+  padding: 10px 5px;
+  font-style: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.button {
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.button-alt {
+  color: blue;
+  background-color: #fff;
+}
+
+section {
+  text-align: right;
+}
+
+section.tecnologies ul {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+section.tecnologies ul li {
+  width: 25%;
+}
+section.tecnologies ul li h3 {
+  display: inline;
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
