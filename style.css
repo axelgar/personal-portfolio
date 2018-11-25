@@ -125,17 +125,17 @@ section.projects a {
   color: black;
 }
 
-section.tecnologies ul {
+section.technologies ul {
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
 }
-section.tecnologies ul li {
+section.technologies ul li {
   width: 25%;
 }
-section.tecnologies ul li h3 {
+section.technologies ul li h3 {
   display: inline;
   display: none;
 }
