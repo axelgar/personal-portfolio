@@ -118,6 +118,13 @@ section {
   text-align: right;
 }
 
+section.projects h3 {
+  text-transform: capitalize;
+}
+section.projects a {
+  color: black;
+}
+
 section.tecnologies ul {
   padding-top: 20px;
   display: flex;
