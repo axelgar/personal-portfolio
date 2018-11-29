@@ -18,6 +18,7 @@ h1, h2, h3, h4 {
 
 ul, li {
   list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -86,7 +87,7 @@ body {
 
 h1 {
   text-transform: uppercase;
-  padding-top: 70px;
+  padding-top: 150px;
 }
 
 h2 {
@@ -95,23 +96,38 @@ h2 {
   background-color: #4F2E70;
   color: white;
   padding: 10px 5px;
-  font-style: 20px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  border-bottom: solid 2px #4F2E70;
 }
 
 p {
   margin: 0;
 }
 
-.button {
-  width: 100%;
-  background-color: blue;
-  color: #fff;
-  border: 1px solid #fff;
+article {
+  text-align: justify;
 }
 
-.button-alt {
-  color: blue;
-  background-color: #fff;
+.wraper {
+  display: grid;
+  grid-template-areas: "imag imag" "description links";
+  text-align: justify;
+}
+.wraper .image {
+  grid-area: imag;
+}
+.wraper .content {
+  grid-area: description;
+}
+.wraper .links {
+  grid-area: links;
+  text-align: end;
 }
 
 section {
@@ -123,6 +139,7 @@ section.projects h3 {
 }
 section.projects a {
   color: black;
+  font-size: 12px;
 }
 
 section.technologies ul {
@@ -131,6 +148,7 @@ section.technologies ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
+  align-items: center;
 }
 section.technologies ul li {
   width: 25%;

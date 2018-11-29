@@ -1,7 +1,7 @@
 'use strict';
 
 const main = () => {
-
+  console.log(`----Hello World! I hope you enjoy the site!----`);
 };
 
-window.document.addEventListener('load', main);
+window.addEventListener('load', main);
