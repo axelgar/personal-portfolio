@@ -61,6 +61,7 @@ a {
 }
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
 nav a {
@@ -69,6 +70,7 @@ nav a {
   margin-right: 10px;
   transition: border 0.25s;
   border-bottom: 2px #4F2E70 solid;
+  font-size: 15px;
 }
 nav a:last-child {
   padding-right: 0;
