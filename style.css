@@ -165,4 +165,16 @@ section.resources a {
   border-bottom: 1px black solid;
 }
 
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer div a {
+  padding: 0px 10px;
+  align-content: center;
+}
+footer div img {
+  width: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
