@@ -160,4 +160,9 @@ section.technologies ul li h3 {
   display: none;
 }
 
+section.resources a {
+  color: black;
+  border-bottom: 1px black solid;
+}
+
 /*# sourceMappingURL=style.css.map */
