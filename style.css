@@ -28,10 +28,15 @@ a {
   color: #141414;
 }
 
+body {
+  scroll-snap-type: block proximity;
+}
+
 #site-header {
   color: white;
   background: #4F2E70;
   height: 100vh;
+  scroll-snap-align: start;
 }
 #site-header img {
   width: 100%;
@@ -39,14 +44,15 @@ a {
   height: 100vh;
 }
 
+#site-main {
+  margin-bottom: 60px;
+  scroll-snap-align: start;
+}
+
 #site-footer {
   color: white;
   padding: 10px 0;
   background: #4F2E70;
-}
-
-#site-main {
-  margin-bottom: 60px;
 }
 
 .container {
@@ -64,29 +70,6 @@ a {
     margin: 0 auto;
   }
 }
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 10px;
-}
-nav a {
-  text-transform: capitalize;
-  display: block;
-  margin-right: 10px;
-  transition: border 0.25s;
-  font-size: 20px;
-  position: relative;
-  z-index: 1;
-}
-nav a:last-child {
-  padding-right: 0;
-}
-nav a:hover {
-  transition: border 0.25s;
-  border-bottom: 2px white solid;
-}
-
 body {
   color: #111;
   font-family: "Cabin", sans-serif;
@@ -98,9 +81,8 @@ h1 {
   text-transform: uppercase;
   padding-top: 70vh;
   font-size: 50px;
-  -webkit-animation: pulse 2s infinite ease;
-  animation: pulse 2s infinite ease;
   text-align: center;
+  position: relative;
 }
 
 h2 {
